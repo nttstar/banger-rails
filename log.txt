@@ -1,0 +1,39 @@
+=> Booting WEBrick
+=> Rails 4.2.3 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+[2015-07-22 14:32:42] INFO  WEBrick 1.3.1
+[2015-07-22 14:32:42] INFO  ruby 2.2.1 (2015-02-26) [x86_64-darwin14]
+[2015-07-22 14:32:42] INFO  WEBrick::HTTPServer#start: pid=33902 port=3000
+
+
+Started GET "/" for ::1 at 2015-07-22 14:32:43 +0800
+Processing by ProductsController#comparison as HTML
+  Rendered products/comparison.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 181ms (Views: 171.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-22 14:32:44 +0800
+
+
+Started GET "/?q=http%3A%2F%2Fdetail.b5m.com%2Fitem.html%3Fdocid%3D4460087736ed32b4bbf929979005d275%26mps%3D____" for ::1 at 2015-07-22 14:32:44 +0800
+Processing by ProductsController#comparison as HTML
+  Parameters: {"q"=>"http://detail.b5m.com/item.html?docid=4460087736ed32b4bbf929979005d275&mps=____"}
+xx docid 4460087736ed32b4bbf929979005d275 32
+query docid 4460087736ed32b4bbf929979005d275
+Redirected to http://localhost:3000/?docid=4460087736ed32b4bbf929979005d275
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?docid=4460087736ed32b4bbf929979005d275" for ::1 at 2015-07-22 14:32:44 +0800
+Processing by ProductsController#comparison as HTML
+  Parameters: {"docid"=>"4460087736ed32b4bbf929979005d275"}
+[{"DOCID":"cf3c1c5c594527723d0904b272f91a30","Picture":"http://img.b5m.com/image/T1SMJ_BKxb1RCvBVdK","Price":"349.00","Title":"米尚 新款羽绒服女士收腰显瘦连帽中长款 修身超值3件套装包含围巾手套 水粉蓝 XL"},{"DOCID":"f7b4d2b0f74ee0dc5eb5c0b7b4b800d7","Picture":"http://img.b5m.com/image/T1jnhTB_hg1RCvBVdK","Price":"349.00","Title":"米尚 新款羽绒服女士收腰显瘦连帽中长款 修身超值3件套装包含围巾手套 果绿 S"},{"DOCID":"26d5c3f71236720f57e1cc824ae884cd","Picture":"http://img.b5m.com/image/T13JWsBmVX1RCvBVdK","Price":"349.00","Title":"米尚 新款羽绒服女士收腰显瘦连帽中长款 修身超值3件套装包含围巾手套 果绿 XL"},{"DOCID":"7e7cf7ca9991f7dac579cb246411d297","Picture":"http://img.b5m.com/image/T1cpKgBvhQ1RCvBVdK","Price":"349.00","Title":"米尚 新款羽绒服女士收腰显瘦连帽中长款 修身超值3件套装包含围巾手套 米杏色 S"},{"DOCID":"6995a33b449c4c9df5d6eb3a1b930b84","Picture":"http://img.b5m.com/image/T1JiEjBKYX1RCvBVdK","Price":"349.00","Title":"米尚 新款羽绒服女士收腰显瘦连帽中长款 修身超值3件套装包含围巾手套 米杏色 XL"},{"DOCID":"1bf3bcf201f31d5729084597efdc4071","Picture":"http://img.b5m.com/image/T1KfA_BTJb1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_水粉蓝,S"},{"DOCID":"f989fa884d32d524a67f013714c8227e","Picture":"http://img.b5m.com/image/T1MtCCBsVT1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_水粉蓝,L"},{"DOCID":"551303f74eadb4ba217c93f9c02554c3","Picture":"http://img.b5m.com/image/T1UfdTBCV_1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_水粉蓝,M"},{"DOCID":"c9afa81818a97a6b7f4ad5095eea5d49","Picture":"http://img.b5m.com/image/T1noDyB7ZT1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_水粉蓝,XL"},{"DOCID":"e256f595c1c9e8c01207d04f1f1f91c0","Picture":"http://img.b5m.com/image/T1_UDTBQV_1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】"},{"DOCID":"cb7cb3f6e2d3d15c8da7441cb36f6307","Picture":"http://img.b5m.com/image/T1GSZbB_xs1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_米杏色,L"},{"DOCID":"3d77b1ebb2953b09848bd177f57d93f8","Picture":"http://img.b5m.com/image/T1HBJTBCxT1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_果绿色,XL"},{"DOCID":"655c4d3b585046bd7c7bca0cb2269c3a","Picture":"http://img.b5m.com/image/T18lhyByZv1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_果绿色,M"},{"DOCID":"45c58f132d71106667bb1eb71ba10e90","Picture":"http://img.b5m.com/image/T146YTBvx_1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_米杏色,M"},{"DOCID":"8457ef5b56946c396b964107eddeea55","Picture":"http://img.b5m.com/image/T1j.VTBmDg1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_果绿色,S"},{"DOCID":"e21a49288f4797bc3deb4bb4cada6fc1","Picture":"http://img.b5m.com/image/T1OpJXBmxs1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_果绿色,L"},{"DOCID":"13afe13015b457478e099a12062efaa4","Picture":"http://img.b5m.com/image/T1IzWCByVT1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_米杏色,XL"},{"DOCID":"522d64ca9ea3cb86cd47dd5275f07b20","Picture":"http://img.b5m.com/image/T1Y4ETBsEv1RCvBVdK","Price":"399.00","Title":"米尚秋冬款羽绒服女士收腰显瘦连帽中长款修身外套【送围巾手套】_米杏色,S"}]
+  Rendered products/comparison.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 129ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-22 14:32:44 +0800
+[2015-07-22 14:33:00] INFO  going to shutdown ...
+[2015-07-22 14:33:00] INFO  WEBrick::HTTPServer#start done.
+Exiting

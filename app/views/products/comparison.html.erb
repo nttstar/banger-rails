@@ -1,0 +1,36 @@
+
+<%
+    unless @err.nil?
+%>
+<h2><%= @err %></h2>
+<%
+    end
+%>
+
+<h2>
+<%= form_tag( {}, method: 'get' ) do %>
+    <%= label_tag(:q, 'Input b5m product url or docid => ') %>
+    <%= text_field_tag(:q) %>
+    <%= submit_tag("submit") %>
+<%end%>
+</h2>
+
+<% if @products.empty? %>
+    <h2> No comparison products found for DOCID (<%= @docid %>) </h2>
+<%else%>
+ 
+<h1>Listing comparison products</h1>
+<table>
+
+  <% @products.each do |product| %>
+    <tr>
+        <td><img width='100px' height='100px' src='<%= product['Picture'] %>' /></td>
+        <td><a href='http://detail.b5m.com/item.html?docid=<%= product['DOCID'] %>'><%= product['Title'] %></a></td>
+        <td><%= product['Source'] %></td>
+        <td><%= product['Price'] %></td>
+    </tr>
+  <% end %>
+</table>
+<% end %>
+
+
